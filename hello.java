@@ -8,11 +8,17 @@ class helloworld
         short s = 32000;
         long l = 34445555;
         float f = 4.5f;
+        int i = (int) f;
         double result = (c + marks + s + l + f);
         int num = 0x6F;
         int num1 = 00_00_000;
         double num2 = 1e1;
+        byte x = 120;
+        int y = 131;
+        x = (byte) y;
 
+        System.out.println(i);
+        System.out.println(x);
         System.out.println(num2);
         System.out.println(num1);
         System.out.println(num);
